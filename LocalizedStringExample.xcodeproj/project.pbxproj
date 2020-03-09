@@ -15,7 +15,7 @@
 		D79F21DE2416A15E004FFB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79F21DC2416A15E004FFB26 /* LaunchScreen.storyboard */; };
 		D79F21E92416A15E004FFB26 /* LocalizedStringExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F21E82416A15E004FFB26 /* LocalizedStringExampleTests.swift */; };
 		D79F21F42416A15E004FFB26 /* LocalizedStringExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F21F32416A15E004FFB26 /* LocalizedStringExampleUITests.swift */; };
-		D79F22022416A175004FFB26 /* Localizable.string.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F22012416A175004FFB26 /* Localizable.string.swift */; };
+		D79F22022416A175004FFB26 /* Localizable+string.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F22012416A175004FFB26 /* Localizable+string.swift */; };
 		D79F22042416A199004FFB26 /* Localizable+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F22032416A199004FFB26 /* Localizable+UI.swift */; };
 		D79F22062416A1D0004FFB26 /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F22052416A1D0004FFB26 /* String+HTML.swift */; };
 		D79F22082416A1E2004FFB26 /* UILabel+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F22072416A1E2004FFB26 /* UILabel+HTML.swift */; };
@@ -54,7 +54,7 @@
 		D79F21EF2416A15E004FFB26 /* LocalizedStringExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizedStringExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79F21F32416A15E004FFB26 /* LocalizedStringExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringExampleUITests.swift; sourceTree = "<group>"; };
 		D79F21F52416A15E004FFB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D79F22012416A175004FFB26 /* Localizable.string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.string.swift; sourceTree = "<group>"; };
+		D79F22012416A175004FFB26 /* Localizable+string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Localizable+string.swift"; sourceTree = "<group>"; };
 		D79F22032416A199004FFB26 /* Localizable+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Localizable+UI.swift"; sourceTree = "<group>"; };
 		D79F22052416A1D0004FFB26 /* String+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
 		D79F22072416A1E2004FFB26 /* UILabel+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+HTML.swift"; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 				D79F21DA2416A15E004FFB26 /* Assets.xcassets */,
 				D79F21DC2416A15E004FFB26 /* LaunchScreen.storyboard */,
 				D79F21DF2416A15E004FFB26 /* Info.plist */,
-				D79F22012416A175004FFB26 /* Localizable.string.swift */,
+				D79F22012416A175004FFB26 /* Localizable+string.swift */,
 				D79F22032416A199004FFB26 /* Localizable+UI.swift */,
 				D79F22052416A1D0004FFB26 /* String+HTML.swift */,
 				D79F22072416A1E2004FFB26 /* UILabel+HTML.swift */,
@@ -316,7 +316,7 @@
 				D79F22042416A199004FFB26 /* Localizable+UI.swift in Sources */,
 				D79F21D22416A15C004FFB26 /* AppDelegate.swift in Sources */,
 				D79F22062416A1D0004FFB26 /* String+HTML.swift in Sources */,
-				D79F22022416A175004FFB26 /* Localizable.string.swift in Sources */,
+				D79F22022416A175004FFB26 /* Localizable+string.swift in Sources */,
 				D79F21D42416A15C004FFB26 /* SceneDelegate.swift in Sources */,
 				D79F22082416A1E2004FFB26 /* UILabel+HTML.swift in Sources */,
 			);
